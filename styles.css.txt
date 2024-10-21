@@ -1,0 +1,58 @@
+:root {
+    --timberwolf: #d7d0c8; /* Light beige */
+    --bone: #c8c6af; /* Soft yellow */
+    --smoky-black: #14110f; /* Dark black */
+    --fern-green: #537a5a; /* Forest green */
+    --hookers-green: #496f5d; /* Dark green */
+}
+
+/* Global Styles */
+body {
+    font-family: 'Roboto', sans-serif; 
+    margin: 0;
+    padding: 0;
+    background-color: var(--timberwolf); 
+    color: var(--smoky-black); 
+}
+
+/* Navigation Styles */
+nav {
+    background-color: var(--hookers-green); 
+    color: var(--timberwolf); 
+    padding: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center; 
+}
+
+nav a {
+    color: var(--timberwolf); 
+    text-decoration: none;
+    padding: 10px 15px;
+}
+
+nav a:hover {
+    background-color: var(--fern-green);
+}
+
+/* Carousel Styles */
+.carousel img {
+    width: 100%;
+    height: auto;
+}
+
+/* Gallery Styles */
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.gallery img {
+    width: 200px; /* Adjust as needed */
+    height: auto;
+    margin: 10px;
+}
